@@ -97,6 +97,50 @@ namespace ADV_04
             //Generic Collection:
 
 
+            #region HashTable
+            //Hashtable Note = new Hashtable();
+
+            //Console.WriteLine(value: $"Count: {Note.Count}");
+
+            //Note.Add(key: "Ahmed", value: 999999);
+            //Note.Add(key: "'Ali", value: 8888888);
+            //Note.Add(key: "Omar", value: 7777777);
+            //Console.WriteLine(value: $"Count: {Note.Count}");
+
+            //foreach (object item in Note.Values)
+            //  {
+            //Console.WriteLine(item);
+
+            // }
+
+            //Note[ "Ahmed"] = 111111;
+
+            //Note[key: "Hamada"] = 12; //Set Get
+
+            //Console.WriteLine(Note[key: "Ahmed"]);
+
+            //Note.Add(key: "Ahmed", value: 7777777);
+            //Note.Add(null, 7777777);
+
+            //Note.Remove(null); 
+
+
+            //Console.WriteLine();
+            //Console.WriteLine(value: "======= Item of Hashtable: =====");
+            //foreach (DictionaryEntry item in Note)
+            //{
+            //    Console.WriteLine(value: $"key: {item.Key} value: {item.Value}");
+
+            //}
+
+            //O(n^2)
+            //O(n)
+            //O(n*Log(n))
+            //O(Log(n))
+            //O(Log(n))
+
+            #endregion
+
 
         }
     }
