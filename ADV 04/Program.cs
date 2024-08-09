@@ -1,5 +1,7 @@
 ﻿using ADV_04.Game;
 using ADV_04.Youtube;
+using System.Collections.Generic;
+using System.Collections;
 using System.Threading.Channels;
 
 namespace ADV_04
@@ -75,6 +77,25 @@ namespace ADV_04
             //channel.UploadVideo -= S03.Notify;
             //channel.UploadVideo += S05.Notify; 
             #endregion
+
+            //Collection: Built -in DS In C#
+            //Lists
+            //Hashtables
+
+            //Non—Generics Collection
+            //Generic Collection
+
+
+            //Lists
+            //Non—Generics: Arraylist
+            //Generics Collection: List - LinkedList - Stack— Queue
+
+
+
+            //Hashtables:
+            //Non—Generics Collection :Hashtables
+            //Generic Collection:
+
 
 
         }
