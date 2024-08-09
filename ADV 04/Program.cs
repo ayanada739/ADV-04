@@ -1,4 +1,6 @@
 ﻿using ADV_04.Game;
+using ADV_04.Youtube;
+using System.Threading.Channels;
 
 namespace ADV_04
 {
@@ -46,9 +48,33 @@ namespace ADV_04
             //ball.Location = new Location() { X = 1, Y = 1, Z = 3 }; 
             #endregion
 
+            #region Event Ex02
+            //Channel channel = new Channel() { ChannelName = "ABC" };
+
+            //channel.AddVideo(video: new Video() { Title = "Title01", Description = "Desc01" });
+
+            //Subscriber S01 = new Subscriber() { SubscriberName = "Ahmed" };
+            //Subscriber S02 = new Subscriber() { SubscriberName = "Ali" };
+            //Subscriber S03 = new Subscriber() { SubscriberName = "Sami" };
+            //Subscriber S04 = new Subscriber() { SubscriberName = "Aya" };
+            //Subscriber S05 = new Subscriber() { SubscriberName = "Mai" };
 
 
+            //channel.UploadVideo += S01.Notify;
+            //channel.UploadVideo += S02.Notify;
+            //channel.UploadVideo += S03.Notify;
+            //channel.UploadVideo += S04.Notify;
 
+
+            //channel.AddVideo(video: new Video() { Title = "Title02", Description = "Desc02" });
+
+
+            //Console.WriteLine(value: "after Sami Cancel");
+            //Console.WriteLine(value: "after  add Mai");
+
+            //channel.UploadVideo -= S03.Notify;
+            //channel.UploadVideo += S05.Notify; 
+            #endregion
 
 
         }
