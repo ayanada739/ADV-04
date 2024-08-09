@@ -142,6 +142,29 @@ namespace ADV_04
             #endregion
 
 
+
+            #region  Generic Collection - Dictionary
+            // Generic Version Of The Hashtable : Dictionary
+
+            //Dictionary<string, long> Note = new Dictionary<string, long>();
+
+            //Note.Add(key: "Ahmed", value: 999999);
+            //Note.Add(key: "Mohamed", value: 999999);
+            //Note.Add(key: "Ali", value: 888888);
+            //Note.Add(key: "Omar", value: 777777);
+
+            //100
+            //Note.EnsureCapacity(120);
+            //Note.TryGetValue(key: "Ahmed", out long result); //0
+
+            //foreach (KeyValuePair<string , long> item in Note)
+            //{
+            //    Console.WriteLine(value: $"Key: {item.Key}, Value: {item.value}");
+            //}
+
+            #endregion
+
+
         }
     }
 }
